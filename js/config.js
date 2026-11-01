@@ -6,7 +6,7 @@ const CONFIG = {
     // Groq API Configuration
     // KHÔNG đặt API key ở đây - dùng serverless function
     GROQ_API_URL: '/api/chat', // Vercel serverless function
-    GROQ_MODEL: 'llama-3.3-70b-versatile',
+    GROQ_MODEL: 'openai/gpt-oss-120b',
     
     // Fallback cho local development (nếu có config.local.js)
     GROQ_API_KEY: null, // Sẽ được override bởi config.local.js
